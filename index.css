@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: URL('/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+h3 {
+    font-family: Verdana;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border:2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.meta-container {
+    background-color: #1B244A;
+    padding: 20px 0 20px 0;
+    width: 800px;
+    margin: 100px auto 0 auto;
+}
+
+.container {    
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 260px;
+    margin: 30px auto 0 auto;
+}
+
+.score-container {
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-container > button {
+    font-family: CursedTimer;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    margin: 10px 0;
+}
+
+#new-game-button {
+    font-family: Verdana;
+    font-size: 22px;
+    display: block;
+    margin: 50px auto 0 auto;
+    padding: 7px 18px;
+    align-self: end;
+}
+
+.fouls-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fouls {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.fouls-score, .score, .period-score, #timer {
+    text-align: end;
+    background-color: black;
+    font-family: CursedTimer;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 170px;
+    height: 100px;
+    margin: 0 0;
+    padding: 10px 0 0 0;
+    border-radius: 5px;
+}
+
+.fouls-score {
+    width: 120px;
+}
+
+#timer {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.fouls-title, .period-title {
+    font-family: Verdana;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+
+.fouls-title {
+    margin: 40px 0 5px 0;
+}
+
+.period-title {
+    font-size: 22px;
+}
+
+.fouls > button {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    height: 45px;
+    width: 60px;
+}
+
+.period-container {
+    text-align: center;
+
+}
+
+.period-score {
+    width: 80px;
+    margin: 0 auto;
+}
